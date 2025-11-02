@@ -1,0 +1,3 @@
+In this repository we will be creating an LLM from scratch,this is done with the help of Sebastian Raschka notebooks on github.
+1. Text preprocessing:
+   Here we did the text prprocessing firstly we created a simple tokenizer which did tokenize the text and gave it the token id's accordingly.Then we used the tiktoken library's GPT style byte pair encoding where it tokenized the text and then we did data loading with the help of sliding window approach where we have taken a size of the window for inputs and that for targets where targets are moving i+1 from the inputs and at the end we create a dataloader with the help of it.
